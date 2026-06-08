@@ -5,9 +5,9 @@ int reverse(int n){
     while (n>0){
         d=n%10;
         reverse=reverse*10+d;
-        n=n/10;      
-}
-return reverse;
+        n=n/10;     
+    }
+    return reverse;
 }
 int main(){
     int result,n;
